@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors())
 
 mongoose.connect(
-  'mongodb+srv://igorlamas:igorlamas@cluster0.ijbf1.mongodb.net/ecommerce?retryWrites=true&w=majority',
+  '...',
   {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true}
   )
 
